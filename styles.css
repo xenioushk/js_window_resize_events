@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #000000;
+}
+
+.container {
+  width: 960px;
+  margin: 100px auto;
+  max-width: 100%;
+}
+
+/* Tablet. */
+@media (min-width: 576px) {
+  .container--sm {
+    background: lightcoral;
+  }
+}
+
+/* Tablet Horizontal screen */
+@media (min-width: 768px) {
+  .container--md {
+    background: lightgoldenrodyellow;
+  }
+}
+
+/* Large Screen */
+
+@media (min-width: 960px) {
+  .container--lg {
+    background: lightskyblue;
+  }
+}
